@@ -1,0 +1,55 @@
+<!-- product.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product — Divine Oasis</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="productdataandapplogic.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container inner">
+      <div class="brand">
+        <img src="assets/logo.svg" alt="Divine Oasis logo" />
+        <div class="title">Divine Oasis</div>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="Shoplisting.html">Shop</a>
+        <a href="contactpage.html">Contact</a>
+      </nav>
+      <select id="currency" class="currency-select">
+        <option value="NGN">NGN ₦</option>
+        <option value="USD">USD $</option>
+        <option value="GBP">GBP £</option>
+        <option value="EUR">EUR €</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="product-hero">
+      <div class="gallery">
+        <img id="product-image" src="" alt="Product image" />
+      </div>
+      <div class="details">
+        <h2 id="product-name"></h2>
+        <div id="product-price" class="price"></div>
+        <p id="product-desc"></p>
+
+        <h4>Sizes</h4>
+        <div id="size-list" class="size-grid"></div>
+
+        <div class="actions" style="margin-top:14px;">
+          <button class="btn primary" id="add-to-cart">Add to cart</button>
+          <a class="btn" href="checkoutpage.html" id="buy-now">Buy now</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer container">© Divine Oasis</footer>
+</body>
+</html>

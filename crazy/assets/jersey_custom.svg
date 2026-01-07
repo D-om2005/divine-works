@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <rect width="100%" height="100%" fill="#f8f4f2" />
+  <g transform="translate(60,80)">
+    <!-- stylized jersey top -->
+    <path d="M80 60 C 120 40 220 40 260 60 L 300 140 L 280 180 L 120 180 L100 140 Z" fill="#ef6c00" stroke="#c24a00" stroke-width="6"/>
+    <!-- pants -->
+    <path d="M110 180 L140 420 C150 480 220 480 230 420 L260 180 Z" fill="#ff8a00" stroke="#c24a00" stroke-width="6"/>
+    <path d="M260 180 L290 420 C300 480 370 480 380 420 L410 180 Z" fill="#ff8a00" stroke="#c24a00" stroke-width="6"/>
+    <!-- pattern bands -->
+    <rect x="120" y="220" width="120" height="18" fill="#5b2c0f" opacity="0.9" transform="rotate(-8 180 229)"/>
+    <rect x="300" y="240" width="120" height="18" fill="#5b2c0f" opacity="0.9" transform="rotate(6 360 249)"/>
+    <!-- highlight circle badge -->
+    <circle cx="360" cy="100" r="18" fill="#fff2e6" stroke="#d9b76a" stroke-width="4" />
+  </g>
+  <text x="300" y="760" font-family="Georgia, serif" font-size="32" text-anchor="middle" fill="#444">Divine Jersey — Custom</text>
+</svg>

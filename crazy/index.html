@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Divine Oasis — Elevate Your Style</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="productdataandapplogic.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container inner">
+      <div class="brand">
+        <img src="assets/logo.svg" alt="Divine Oasis logo" />
+        <div class="title">Divine Oasis</div>
+      </div>
+      <nav class="nav-links">
+        <a href="Shoplisting.html">Shop</a>
+        <a href="Shoplisting.html?cat=men">Men</a>
+        <a href="Shoplisting.html?cat=women">Women</a>
+        <a href="Shoplisting.html?cat=jerseys">Jerseys</a>
+        <a href="Shoplisting.html?cat=new">New arrivals</a>
+        <a href="contactpage.html">Contact</a>
+      </nav>
+      <select id="currency" class="currency-select">
+        <option value="NGN">NGN ₦</option>
+        <option value="USD">USD $</option>
+        <option value="GBP">GBP £</option>
+        <option value="EUR">EUR €</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero-banner">
+      <img class="logo-large" src="assets/logo.svg" alt="Divine Oasis" />
+      <div class="lead">Luxury Meets Heritage</div>
+      <div class="actions">
+        <a class="btn primary" href="Shoplisting.html">Shop the Collection</a>
+        <a class="btn" href="Shoplisting.html?cat=jerseys">Shop Jerseys</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Featured collections</h2>
+      <div id="home-collections" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div>© Divine Oasis. All rights reserved.</div>
+  </footer>
+</body>
+</html>

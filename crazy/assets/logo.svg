@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#273536"/>
+  
+  <!-- Sun/Moon -->
+  <circle cx="220" cy="100" r="30" fill="#f6e7db" opacity="0.95"/>
+  
+  <!-- Camel - Main Body with Humps -->
+  <g stroke="#f6e7db" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Back hump (rear) -->
+    <path d="M 80 220 Q 100 160 140 140 Q 170 125 190 120"/>
+    
+    <!-- Front hump (taller) -->
+    <path d="M 190 120 Q 210 115 230 140 Q 270 180 280 240"/>
+    
+    <!-- Neck curve -->
+    <path d="M 280 240 Q 300 220 320 200"/>
+    
+    <!-- Head/Face -->
+    <path d="M 320 200 Q 345 190 355 200 Q 360 210 355 220"/>
+    
+    <!-- Ears -->
+    <path d="M 340 185 L 345 155 M 355 185 L 360 155"/>
+    
+    <!-- Nostril detail -->
+    <circle cx="350" cy="205" r="3" fill="#f6e7db"/>
+    
+    <!-- Front left leg -->
+    <path d="M 240 280 L 230 380"/>
+    
+    <!-- Front right leg -->
+    <path d="M 270 280 L 280 380"/>
+    
+    <!-- Back left leg -->
+    <path d="M 120 280 L 110 380"/>
+    
+    <!-- Back right leg -->
+    <path d="M 160 280 L 160 380"/>
+    
+    <!-- Tail -->
+    <path d="M 80 250 Q 70 280 80 320"/>
+    
+    <!-- Belly/body line -->
+    <path d="M 100 280 Q 180 290 280 280"/>
+  </g>
+  
+  <!-- Text: Divine Oasis -->
+  <text x="200" y="430" font-family="Georgia, serif" font-size="48" font-weight="300" text-anchor="middle" fill="#f6e7db" letter-spacing="2">
+    Divine Oasis
+  </text>
+</svg>
